@@ -51,6 +51,7 @@ public class infosys2 {
                  {1, 1, 1, 1},
                  {0, 0, 0, 0}};
 		maxOneIn2DArrray(mat);
+		minimumElementInASortedAndRotatedArray(new int[] {20,11,15,17,19});
 	}
 	public static void minMaxArray(int[] arr) {
 		int min = arr[0];
@@ -506,5 +507,25 @@ public class infosys2 {
 			}
 		}
 		System.out.println(cnt +"  row - "+r);
+	}
+	
+	public static void minimumElementInASortedAndRotatedArray(int[] arr) {
+		int lo = 0;
+		int hi = arr.length-1;
+		if(arr.length==1) {
+			System.out.println(arr[0]);
+		}
+		while(lo<=hi) {
+			int mid = (lo+hi)/2;
+			if(mid>0 && arr[mid-1]>arr[mid] && arr[mid+1]>arr[mid]) {
+				System.out.println(mid + " "+arr[mid]);
+				return;
+			}else if(mid>0 && arr[mid]>arr[mid-1]) {
+				hi = mid-1;
+			}else {
+				lo = mid +1;
+			}
+		}
+		System.out.println("not rotated");
 	}
 }

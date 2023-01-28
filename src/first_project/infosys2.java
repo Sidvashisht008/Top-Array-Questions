@@ -13,39 +13,39 @@ public class infosys2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scn = new Scanner(System.in);
-//		int[] arr = new int[] {11,11,2,3,4,5,6};
-//		minMaxArray(arr);
-//		reverseArray(arr);
-//		kthLargestSmallest(4,arr);
-//		occurrence(arr,11);
-//		peak(new int[] {10, 20, 15, 2, 23, 90, 67});
-//		zeroesAndOnes(new int[] {0, 1, 0, 1, 0, 0, 1, 1, 1, 0});
-//		zeroesOnesTwoes(new int[]{0, 1, 1, 0, 1, 2, 1, 2, 0, 0, 0, 1});
-//		moveNegative(new int[] {-12, 11, -13, -5,
-//                6, -7, 5, -3, 11});
-//		subArraySum(new int[] {15, 2, 4, 8, 9, 5, 10, 23}, 23);
-//		intersection(new int[] {1, 3, 4, 5, 7}, new int[] {2, 3, 5, 6});
-//		union(new int[] {1, 3, 4, 5, 7}, new int[] {2, 3, 5, 6});
-//		rotateArray(new int[] {1, 2, 3, 4, 5},2);
-//		missingInteger(new int[] {1, 2, 4, 6, 3, 7, 8}, 8);
-//		targetSum(new int[] {1, 5, 7, -1},6);
-//		targetSumSorted(arr, 0);
-//		findDuplicates(new int[] {1, 2, 3, 6, 3, 6, 1});
-//		int arr1[] = { 1, 5, 10, 20, 40, 80 };
-//        int arr2[] = { 6, 7, 20, 80, 100 };
-//        int arr3[] = { 3, 4, 15, 20, 30, 70, 80, 120 };
-//        unionThreeArrays(arr1,arr2,arr3);
-//		firstRepeating(new int[] {10, 5, 3, 4, 3, 5, 6});
-//		subArrayWithZeroSum(new int[] {4, 2, -3, 1, 6,0});
-//		subArrayEqual0sAnd1s(new int[] { 1, 0, 0, 1, 1, 0, 0, 1});
-//		firstNonRepeatingElement(new int[] { -1, 2, -1, 3, 0});
-//		firstNonRepeatingElementExtraSpace(new int[] { -1, 2, -1, 3, 0});
-//		factorial(6);
-//		factorialBig(100);
-//		prodSubArray(new int[] {6, -3, -10, 0, 2});
-//		maxSumSubArray(new int[] {-2, -3, 4, -1, -2, 1, 5, -3});
-//		tripletSum(new int[] {1,2,3,4,5}, 9);
-//		majorityElement(new int[] {3, 3, 4, 2, 4, 4, 2, 4});
+		int[] arr = new int[] {11,11,2,3,4,5,6};
+		minMaxArray(arr);
+		reverseArray(arr);
+		kthLargestSmallest(4,arr);
+		occurrence(arr,11);
+		peak(new int[] {10, 20, 15, 2, 23, 90, 67});
+		zeroesAndOnes(new int[] {0, 1, 0, 1, 0, 0, 1, 1, 1, 0});
+		zeroesOnesTwoes(new int[]{0, 1, 1, 0, 1, 2, 1, 2, 0, 0, 0, 1});
+		moveNegative(new int[] {-12, 11, -13, -5,
+                6, -7, 5, -3, 11});
+		subArraySum(new int[] {15, 2, 4, 8, 9, 5, 10, 23}, 23);
+		intersection(new int[] {1, 3, 4, 5, 7}, new int[] {2, 3, 5, 6});
+		union(new int[] {1, 3, 4, 5, 7}, new int[] {2, 3, 5, 6});
+		rotateArray(new int[] {1, 2, 3, 4, 5},2);
+		missingInteger(new int[] {1, 2, 4, 6, 3, 7, 8}, 8);
+		targetSum(new int[] {1, 5, 7, -1},6);
+		targetSumSorted(arr, 0);
+		findDuplicates(new int[] {1, 2, 3, 6, 3, 6, 1});
+		int arr1[] = { 1, 5, 10, 20, 40, 80 };
+        int arr2[] = { 6, 7, 20, 80, 100 };
+        int arr3[] = { 3, 4, 15, 20, 30, 70, 80, 120 };
+        unionThreeArrays(arr1,arr2,arr3);
+		firstRepeating(new int[] {10, 5, 3, 4, 3, 5, 6});
+		subArrayWithZeroSum(new int[] {4, 2, -3, 1, 6,0});
+		subArrayEqual0sAnd1s(new int[] { 1, 0, 0, 1, 1, 0, 0, 1});
+		firstNonRepeatingElement(new int[] { -1, 2, -1, 3, 0});
+		firstNonRepeatingElementExtraSpace(new int[] { -1, 2, -1, 3, 0});
+		factorial(6);
+		factorialBig(100);
+		prodSubArray(new int[] {6, -3, -10, 0, 2});
+		maxSumSubArray(new int[] {-2, -3, 4, -1, -2, 1, 5, -3});
+		tripletSum(new int[] {1,2,3,4,5}, 9);
+		majorityElement(new int[] {3, 3, 4, 2, 4, 4, 2, 4});
 		 int mat[][] = { {0, 0, 0, 1},
                  {0, 1, 1, 1},
                  {1, 1, 1, 1},

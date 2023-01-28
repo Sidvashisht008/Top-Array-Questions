@@ -52,6 +52,7 @@ public class infosys2 {
                  {0, 0, 0, 0}};
 		maxOneIn2DArrray(mat);
 		minimumElementInASortedAndRotatedArray(new int[] {20,11,15,17,19});
+		missingSmallestPositiveInteger(new int[] {1,2,3,4,5,6});
 	}
 	public static void minMaxArray(int[] arr) {
 		int min = arr[0];
@@ -527,5 +528,18 @@ public class infosys2 {
 			}
 		}
 		System.out.println("not rotated");
+	}
+	
+	public static void missingSmallestPositiveInteger(int[] arr) {
+		List<Integer> ls = new ArrayList<>();
+		for(int i = 0;i<arr.length;i++) {
+			ls.add(arr[i]);
+		}
+		for(int i = 1;i<1000010;i++) {
+			if(!ls.contains(i)) {
+				System.out.println(i);
+				return;
+			}
+		}
 	}
 }
